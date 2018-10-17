@@ -21,8 +21,8 @@ public class MagentoTest
 		m.clickOnMyacc();
 		Thread.sleep(3000);
 		Loginpage login=new Loginpage(driver);
-		login.typeEmail("subramanyaraj87@gmail.com");
-		login.typePwd("Welcome123");
+		login.typeEmail("anudeepknights@gmail.com");
+		login.typePwd("Goku@ss4");
 		login.clickOnLogin();
 		Thread.sleep(3000);
 		Logoutpage logout=new Logoutpage(driver);
