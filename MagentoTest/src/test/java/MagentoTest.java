@@ -22,7 +22,7 @@ public class MagentoTest
 		Thread.sleep(3000);
 		Loginpage login=new Loginpage(driver);
 		login.typeEmail("anudeepknights@gmail.com");
-		login.typePwd("526ku@ss4");
+		login.typePwd("Goku@ss4");
 		login.clickOnLogin();
 		Thread.sleep(3000);
 		Logoutpage logout=new Logoutpage(driver);
